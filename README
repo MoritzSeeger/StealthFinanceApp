@@ -1,1 +1,8 @@
-Stealth Finance is a banking app
+A Java-based banking app that allows users to transfer money anonymously, purchase virtual credit cards, drop cash at specific locations, and view a history of all transactions.
+
+Here is the translated text:
+
+Since the database resources are provided by my university, non-university members cannot log into the banking app because a VPN is required, which is only accessible to 
+students of my university. However, all the code files used to program the entire app can be seen here. The code can also be easily downloaded, and the database connection 
+can be changed, and then the app will work perfectly.
+
