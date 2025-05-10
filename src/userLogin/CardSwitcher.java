@@ -1,0 +1,24 @@
+package userLogin;
+
+import java.awt.CardLayout;
+
+import javax.swing.JPanel;
+
+public class CardSwitcher extends CardLayout {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4L;
+	private CardLayout cardLayout;
+	private JPanel container;
+	
+	public CardSwitcher(CardLayout cardLayout, JPanel container){
+		this.cardLayout = cardLayout;
+		this.container = container;
+		
+	}
+	public void switchCards(String string) {
+		cardLayout.show(container, string);
+	}
+}
